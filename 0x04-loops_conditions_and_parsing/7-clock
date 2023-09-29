@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Prints the time starting from hour 0 to hour 12 minute 59.
+hour=0
+while [ "$hour" -le 12 ]; do
+	echo "Hour: $hour"
+	min=1
+	while [ "$min" -le 59 ]; do
+		echo "$min"
+		(( min++ ))
+	done
+	(( hour++ ))
+done
