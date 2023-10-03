@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Displays all processes, for all users.
+ps -uaxf
